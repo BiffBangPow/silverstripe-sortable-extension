@@ -1,6 +1,6 @@
 {
-  "name": "biffbangpow/silverstripe-elementmodule-template",
-  "description": "A basic skeleton for a Silverstripe 4 elemental module",
+  "name": "biffbangpow/silverstripe-sortable-extension",
+  "description": "Wrapper extension for sortable grids",
   "type": "silverstripe-vendormodule",
   "minimum-stability": "dev",
   "license": "proprietary",
@@ -17,16 +17,13 @@
   "require": {
     "silverstripe/vendor-plugin": "^1.0",
     "silverstripe/cms": "^4",
-    "dnadesign/silverstripe-elemental": "^4@stable || ^3@stable"
+    "undefinedoffset/sortablegridfield": "^2.0"
   },
   "autoload": {
     "psr-4": {
-      "BiffBangPow\\Element\\": "src/"
+      "BiffBangPow\\Extension\\": "src/"
     }
   },
   "extra": {
-    "expose": [
-      "client/dist"
-    ]
   }
 }
