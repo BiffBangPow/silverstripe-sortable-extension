@@ -1,10 +1,10 @@
 <?php
 namespace BiffBangPow\Extension;
 
+use SilverStripe\Core\Extension;
 use SilverStripe\Forms\FieldList;
-use SilverStripe\ORM\DataExtension;
 
-class SortableExtension extends DataExtension
+class SortableExtension extends Extension
 {
 
     private static $db = [
